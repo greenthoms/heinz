@@ -1,0 +1,308 @@
+/* General Helpers
+============================================================================ */
+
+/* Add to <ul> to remove padding and bullets. */
+.uiList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Add to <ul> for a subtler list style. */
+.uiLightList {
+  list-style-type: inside;
+  list-style-type: square;
+  color: #666;
+  line-height: 1.5;
+  padding-left: 1.25em;
+}
+
+/* Similar to .text-muted (consider removing). */
+.uFontQuiet {
+  color: #666;
+  font-weight: 400;
+}
+.bold   {font-weight: bold !important;}
+.italic {font-weight: italic !important;}
+
+/* Add to <legend> to make it look like a <label>. */
+.label-style {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-size: 14px;
+    border: 0;
+}
+
+/* Links
+============================================================================ */
+.linkUnderline a {text-decoration: underline !important;}
+.linkPrimary a   {color: #0275d8 !important;}
+
+/* Buttons
+============================================================================ */
+.btn.lightIcon i {
+  margin-right: 5px;
+}
+.btnRow .btn {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+/* Overflow
+============================================================================ */
+.scroll-h {
+  overflow-x: auto;
+}
+.scroll-v {
+  overflow-y: auto;
+}
+.overflow-visible {
+  overflow: visible !important;
+}
+
+/* Change Case
+============================================================================ */
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* Misc Utility Classes
+============================================================================ */
+.z1 {
+  z-index: 1;
+}
+.z2 {
+  z-index: 2;
+}
+.z8 {
+  z-index: 8;
+}
+.z10 {
+  z-index: 10;
+}
+.z100 {
+  z-index: 100;
+}
+
+.z500 {
+  z-index: 500;
+}
+
+.z900 {
+  z-index: 900;
+}
+
+.z1000 {
+  z-index: 1000;
+}
+
+.z2000 {
+  z-index: 2000;
+}
+
+.z4000 {
+  z-index: 5000;
+}
+
+.z5000 {
+  z-index: 5000;
+}
+
+/* Misc Utility Classes
+============================================================================ */
+.unfloat {
+  float: none;
+}
+.dot {
+  border-radius: 50%;
+}
+.quiet {
+  color: #7f7f7f;
+  color: rgba(0, 0, 0, 0.5);
+}
+.contain {
+  position: relative;
+}
+.clip {
+  overflow: hidden;
+}
+.hidden {
+  display: none;
+}
+.block {
+  display: block;
+}
+.fullWidth {
+  width: 100%;
+}
+.shadow {
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
+}
+.noevents {
+  pointer-events: none;
+}
+.truncate {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Borders
+============================================================================ */
+.uBorder {
+  border: solid 1px #ddd;
+}
+.uBorderTop {
+  border-top: solid 1px #ddd;
+}
+.uBorderBottom {
+  border-bottom: solid 1px #ddd;
+}
+.uBorderRight {
+  border-right: solid 1px #ddd;
+}
+.uBorderLeft {
+  border-left: solid 1px #ddd;
+}
+
+/* Border with 10px margin and padding */
+.uBorder1 {
+  border: solid 1px #ddd;
+  padding: 10px;
+  margin: 10px;
+}
+.uBorderTop1 {
+  border-top: solid 1px #ddd;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.uBorderBottom1 {
+  border-bottom: solid 1px #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.uBorderRight1 {
+  border-left: solid 1px #ddd;
+  padding-left: 10px;
+}
+.uBorderLeft1 {
+  border-left: solid 1px #ddd;
+  padding-left: 10px;
+}
+
+/* Border with 20px margin and padding */
+.uBorder2 {
+  border: solid 1px #ddd;
+  padding: 20px;
+  margin: 20px;
+}
+.uBorderTop2 {
+  border-top: solid 1px #ddd;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.uBorderBottom2 {
+  border-bottom: solid 1px #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.uBorderRight2 {
+  border-left: solid 1px #ddd;
+  padding-left: 20px;
+}
+.uBorderLeft2 {
+  border-left: solid 1px #ddd;
+  padding-left: 20px;
+}
+
+/* Dashed */
+.uDashed {
+  border: dashed 1px #ddd;
+}
+.uDashedTop {
+  border-top: dashed 1px #ddd;
+}
+.uDashedBottom {
+  border-bottom: dashed 1px #ddd;
+}
+.uDashedRight {
+  border-right: dashed 1px #ddd;
+}
+.uDashedLeft {
+  border-left: dashed 1px #ddd;
+}
+
+/* Dashed */
+.uDashed1 {
+  border: dashed 1px #ddd;
+  padding: 10px;
+  margin: 10px;
+}
+.uDashedTop1 {
+  border-top: dashed 1px #ddd;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.uDashedBottom1 {
+  border-bottom: dashed 1px #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.uDashedRight1 {
+  border-right: dashed 1px #ddd;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+.uDashedLeft1 {
+  border-left: dashed 1px #ddd;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+/* Dashed with 20px margin and padding */
+.uDashed2 {
+  border: dashed 1px #ddd;
+  padding: 20px;
+  margin: 20px;
+}
+.uDashedTop2 {
+  border-top: dashed 1px #ddd;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.uDashedBottom2 {
+  border-bottom: dashed 1px #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.uDashedRight2 {
+  border-left: dashed 1px #ddd;
+  padding-left: 20px;
+}
+.uDashedLeft2 {
+  border-left: dashed 1px #ddd;
+  padding-left: 20px;
+}
+
+/* Input styles (Refactor to different module - TG 24/05/2016 )
+============================================================================ */
+.inputLoader {
+  background: url(../../img/ripple.gif) no-repeat scroll;
+  background-position: right 5px top 1px;
+  padding-right: 35px;
+}
+.inputSuccess {
+  background: url(../../img/check.gif) no-repeat scroll;
+  background-position: right 5px top 1px;
+  padding-right: 35px;
+}
+.inputDanger {
+  background: url(../../img/cross.gif) no-repeat scroll;
+  background-position: right 5px top 1px;
+  padding-right: 35px;
+}
